@@ -4,6 +4,9 @@ _modify:
   GDMA:
     name: DMA
 
+  RNG:
+    baseAddress: 0x600B2800
+
 DMA:
   "IN_INT_ST_CH%s":
     _strip_end: "_CH_INT_ST"
