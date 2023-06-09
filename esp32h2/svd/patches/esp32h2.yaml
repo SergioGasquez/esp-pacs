@@ -3,8 +3,8 @@ _svd: "../esp32h2.base.svd"
 _modify:
   GDMA:
     name: DMA
-  ASSIST_DEBUG:
-    baseAddress: 0x600C2000
+  RNG:
+    baseAddress: 0x600B2800
 
 ASSIST_DEBUG:
   _modify:
@@ -38,9 +38,6 @@ ASSIST_DEBUG:
         name: CORE_0_IRAM0_EXCEPTION_MONITOR_INTR_ENA
       CORE_0_DRAM0_EXCEPTION_MONITOR_RLS:
         name: CORE_0_DRAM0_EXCEPTION_MONITOR_INTR_ENA
-
-  RNG:
-    baseAddress: 0x600B2800
 
 DMA:
   "IN_INT_ST_CH%s":
