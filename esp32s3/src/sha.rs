@@ -52,7 +52,7 @@ pub mod dma_block_num;
 pub type START = crate::Reg<start::START_SPEC>;
 #[doc = "Typical SHA configuration register 0."]
 pub mod start;
-#[doc = "CONTINUE (r) register accessor: Typical SHA configuration register 1.\n\nYou can [`read`](crate::generic::Reg::read) this register and get [`continue_::R`].  See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [`continue_`] module"]
+#[doc = "CONTINUE (w) register accessor: Typical SHA configuration register 1.\n\nYou can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero) this register using [`continue_::W`]. See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [`continue_`] module"]
 pub type CONTINUE = crate::Reg<continue_::CONTINUE_SPEC>;
 #[doc = "Typical SHA configuration register 1."]
 pub mod continue_;
